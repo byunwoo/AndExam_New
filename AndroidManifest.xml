@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="exam.andexam_new"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/andexam" android:label="@string/app_name">
+        <activity android:name=".AndExam_New"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="C08_FilterTouch" android:label="FilterTouch" />
+        <activity android:name="C09_OverScroll" android:label="OverScroll" />
+        <activity android:name="C16_StrictMode" android:label="StrictMode" />
+        <activity android:name="C21_DownloadManager" android:label="DownloadManager" />
+        
+    </application>
+    <uses-sdk android:minSdkVersion="9" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest> 
